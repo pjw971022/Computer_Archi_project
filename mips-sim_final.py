@@ -676,7 +676,7 @@ while pc < len(inst) and inst_cnt < int(inst_num):
 
     pc = int(pc) + 1
     inst_cnt += 1
-print(f"Isntrutions: {inst_cnt + 1}")
+print(f"Instructions: {inst_cnt + 1}")
 cache.print_hit_ratio()
 
 
